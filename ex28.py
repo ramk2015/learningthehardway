@@ -1,0 +1,23 @@
+def p(stuff):
+    print "\t", stuff
+
+print True and True,; p(True)
+print False and True,; p(False)
+print 1 ==1 and 2==1,; p(False)
+print 'test' =="test",; p(True)
+print 1==1 or 2 != 1,; p(True)
+print True and 1 ==1,; p(True)
+print False and 0 !=0,; p(False)
+print True or 1 == 1,; p(True)
+print "test" == "testing",; p(False)
+print 1 != 0 and 2 ==1,; p(False)
+print "test" != "testing",; p(True)
+print "test" == 1,; p(False)
+print not (True and False),; p(True)
+print not (1 == 1 and 0 != 1),; p(False)
+print not (10 == 1 or 1000 == 1000),; p(False)
+print not (1 != 10 or 3==4),; p(False)
+print not("testing" == "testing" and "Zed" =="Cool Guy"),; p(True)
+print 1==1 and (not("testing" ==1 or 1 ==0)),; p(True)
+print "chunky" =="bacon" and (not(3==4 or 3==3)),; p(False)
+print 3==3 and (not("testing" == "testing" or "Python" =="Fun")),; p(False)
